@@ -1,0 +1,10 @@
+name: sms_spam_detector
+channels:
+  - conda-forge
+  - apple
+dependencies:
+  - python
+  - pandas
+  - scikit-learn
+  - ipykernel
+  - gradio
