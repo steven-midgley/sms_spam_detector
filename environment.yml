@@ -3,8 +3,10 @@ channels:
   - conda-forge
   - apple
 dependencies:
-  - python
+  - python=3.10
   - pandas
   - scikit-learn
   - ipykernel
-  - gradio
+  - jupyter
+  - ipywidgets
+  - tqdm
